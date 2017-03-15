@@ -1,0 +1,156 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular2-cesium",
+        "scope": null,
+        "escapedName": "angular2-cesium",
+        "name": "angular2-cesium",
+        "rawSpec": "",
+        "spec": "latest",
+        "type": "tag"
+      },
+      "C:\\projects\\123"
+    ]
+  ],
+  "_from": "angular2-cesium@latest",
+  "_id": "angular2-cesium@0.0.2",
+  "_inCache": true,
+  "_location": "/angular2-cesium",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-18-east.internal.npmjs.com",
+    "tmp": "tmp/angular2-cesium-0.0.2.tgz_1488969209113_0.34984230692498386"
+  },
+  "_npmUser": {
+    "name": "tgftech",
+    "email": "TGFTechInc@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular2-cesium",
+    "scope": null,
+    "escapedName": "angular2-cesium",
+    "name": "angular2-cesium",
+    "rawSpec": "",
+    "spec": "latest",
+    "type": "tag"
+  },
+  "_requiredBy": [
+    "#USER"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2-cesium/-/angular2-cesium-0.0.2.tgz",
+  "_shasum": "6cc08c83c6d5148cea425dabc34c7f9cbe601aa9",
+  "_shrinkwrap": null,
+  "_spec": "angular2-cesium",
+  "_where": "C:\\projects\\123",
+  "dependencies": {
+    "angular2parse": "^1.0.4",
+    "geodesy": "^1.1.1",
+    "json-string-mapper": "^1.0.0",
+    "primitive-primitives": "0.0.5"
+  },
+  "description": "Angular2 library for working with Cesium.",
+  "devDependencies": {
+    "@angular/common": "~2.3.0",
+    "@angular/compiler": "~2.3.0",
+    "@angular/compiler-cli": "~2.3.0",
+    "@angular/core": "~2.3.0",
+    "@angular/forms": "~2.3.0",
+    "@angular/http": "~2.3.0",
+    "@angular/platform-browser": "~2.3.0",
+    "@angular/platform-browser-dynamic": "~2.3.0",
+    "@angular/router": "~3.3.0",
+    "@types/core-js": "^0.9.35",
+    "@types/jasmine": "2.5.36",
+    "@types/node": "6.0.63",
+    "@types/selenium-webdriver": "^2.53.33",
+    "angular2-template-loader": "^0.4.0",
+    "awesome-typescript-loader": "3.0.3",
+    "babel-core": "^6.23.1",
+    "babel-loader": "^6.4.0",
+    "babel-plugin-transform-es2015-modules-commonjs": "^6.23.0",
+    "babel-preset-env": "^1.2.1",
+    "bower": "^1.7.9",
+    "browserify": "^13.1.1",
+    "cesium": "1.30.0",
+    "codelyzer": "^2.0.1",
+    "compodoc": "0.0.41",
+    "concurrently": "^3.1.0",
+    "copy-webpack-plugin": "^4.0.1",
+    "core-js": "^2.4.1",
+    "css-loader": "^0.23.1",
+    "del": "^2.2.0",
+    "es6-module-loader": "^0.17.11",
+    "es6-shim": "^0.35.2",
+    "express": "^4.14.0",
+    "extract-text-webpack-plugin": "1.0.1",
+    "file-loader": "^0.8.5",
+    "html-loader": "^0.4.4",
+    "html-webpack-plugin": "^2.26.0",
+    "jasmine": "^2.4.1",
+    "jasmine-core": "^2.4.1",
+    "karma": "^0.13.22",
+    "karma-coverage": "^1.0.0",
+    "karma-jasmine": "^1.0.2",
+    "karma-phantomjs-launcher": "^1.0.0",
+    "karma-sourcemap-loader": "^0.3.7",
+    "karma-webpack": "^1.8.0",
+    "merge2": "^1.0.2",
+    "null-loader": "^0.1.1",
+    "phantomjs-prebuilt": "^2.1.7",
+    "raw-loader": "^0.5.1",
+    "reflect-metadata": "0.1.3",
+    "rimraf": "^2.5.2",
+    "run-sequence": "^1.2.1",
+    "rxjs": "5.0.0-beta.12",
+    "socket.io": "^1.7.3",
+    "style-loader": "^0.13.1",
+    "ts-helpers": "^1.1.1",
+    "ts-mockito": "1.1.4",
+    "tslint": "4.4.2",
+    "typescript": "2.0.10",
+    "webpack": "2.1.0-beta.15",
+    "webpack-dev-server": "1.16.3",
+    "webpack-merge": "0.14.1",
+    "webpack-node-externals": "^1.5.4",
+    "zone.js": "^0.6.23"
+  },
+  "directories": {},
+  "dist": {
+    "shasum": "6cc08c83c6d5148cea425dabc34c7f9cbe601aa9",
+    "tarball": "https://registry.npmjs.org/angular2-cesium/-/angular2-cesium-0.0.2.tgz"
+  },
+  "gitHead": "606f76f282ee042e7777107ea7d80c1d4d73ac8c",
+  "license": "MIT",
+  "main": "bundles/angular2-cesium.umd.js",
+  "maintainers": [
+    {
+      "name": "tgftech",
+      "email": "TGFTechInc@gmail.com"
+    }
+  ],
+  "name": "angular2-cesium",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "2.0.1"
+  },
+  "readme": "ERROR: No README data found!",
+  "scripts": {
+    "aot": "webpack --config webpack.aot.config.js -p",
+    "build": "rimraf dist && node_modules\\.bin\\webpack --config config/webpack.dev.js --progress --profile --bail",
+    "bundle": "npm run cleanup && npm run lint && npm run ngc && npm run aot",
+    "cleanup": "rimraf src/*.ngfactory.ts src/*.ngstyle.ts src/*.ngsummary.json build bundles",
+    "compile-docs": "compodoc -p tsconfig.json -n \"Angular 2 Cesium\"",
+    "compileNserve-docs": "npm run compile-docs && npm run serve-docs",
+    "lint": "tslint -c tslint.json --project tsconfig.aot.json",
+    "ngc": "ngc -p tsconfig.aot.json",
+    "serve-docs": "compodoc -s",
+    "start": "webpack-dev-server --inline --progress --port 8080",
+    "test": "karma start",
+    "test-server": "node demo/performance-server/server.js"
+  },
+  "typings": "src/main.d.ts",
+  "version": "0.0.2"
+}

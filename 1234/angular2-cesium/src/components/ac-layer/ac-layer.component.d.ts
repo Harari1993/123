@@ -1,0 +1,35 @@
+import { BillboardDrawerService } from '../../services/billboard-drawer/billboard-drawer.service';
+import { OnInit, OnChanges, SimpleChanges, AfterContentInit } from '@angular/core';
+import { LayerService } from '../../services/layer-service/layer-service.service';
+import { AcNotification } from '../../models/ac-notification';
+import { ComputationCache } from '../../services/computation-cache/computation-cache.service';
+import { LabelDrawerService } from '../../services/label-drawer/label-drawer.service';
+import { StaticCircleDrawerService } from '../../services/static-circle-drawer/static-circle-drawer.service';
+import { EllipseDrawerService } from '../../services/ellipse-drawer/ellipse-drawer.service';
+import { DynamicEllipseDrawerService } from '../../services/ellipse-drawer/dynamic-ellipse-drawer.service';
+import { DynamicPolylineDrawerService } from '../../services/dynamic-polyline-drawer/dynamic-polyline-drawer.service';
+import { StaticPolylineDrawerService } from '../../services/static-polyline-drawer/static-polyline-drawer.service';
+import { PolygonDrawerService } from '../../services/polygon-drawer/polygon-drawer.service';
+import { ArcDrawerService } from '../../services/arc-drawer/arc-drawer.service';
+export declare class AcLayerComponent implements OnInit, OnChanges, AfterContentInit {
+    private layerService;
+    private _computationCache;
+    private static readonly acForRgx;
+    show: boolean;
+    acFor: string;
+    context: any;
+    private entityName;
+    private observable;
+    private _drawerList;
+    private _updateStream;
+    constructor(layerService: LayerService, _computationCache: ComputationCache, billboardDrawerService: BillboardDrawerService, labelDrawerService: LabelDrawerService, ellipseDrawerService: EllipseDrawerService, dynamicEllipseDrawerService: DynamicEllipseDrawerService, dynamicPolylineDrawerService: DynamicPolylineDrawerService, staticCircleDrawerService: StaticCircleDrawerService, staticPolylineDrawerService: StaticPolylineDrawerService, polygonDrawerService: PolygonDrawerService, arcDrawerService: ArcDrawerService);
+    init(): void;
+    private initValidParams();
+    ngAfterContentInit(): void;
+    ngOnInit(): void;
+    ngOnChanges(changes: SimpleChanges): void;
+    removeAll(): void;
+    remove(entityId: number): void;
+    update(notification: AcNotification): void;
+    refreshAll(collection: AcNotification[]): void;
+}

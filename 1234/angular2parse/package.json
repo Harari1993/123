@@ -1,0 +1,92 @@
+{
+  "_args": [
+    [
+      {
+        "raw": "angular2parse@^1.0.4",
+        "scope": null,
+        "escapedName": "angular2parse",
+        "name": "angular2parse",
+        "rawSpec": "^1.0.4",
+        "spec": ">=1.0.4 <2.0.0",
+        "type": "range"
+      },
+      "C:\\projects\\123\\node_modules\\angular2-cesium"
+    ]
+  ],
+  "_from": "angular2parse@>=1.0.4 <2.0.0",
+  "_id": "angular2parse@1.0.4",
+  "_inCache": true,
+  "_location": "/angular2parse",
+  "_nodeVersion": "6.9.4",
+  "_npmOperationalInternal": {
+    "host": "packages-12-west.internal.npmjs.com",
+    "tmp": "tmp/angular2parse-1.0.4.tgz_1488406344999_0.5229771183803678"
+  },
+  "_npmUser": {
+    "name": "ttsahi",
+    "email": "t.tsahi@gmail.com"
+  },
+  "_npmVersion": "3.10.10",
+  "_phantomChildren": {},
+  "_requested": {
+    "raw": "angular2parse@^1.0.4",
+    "scope": null,
+    "escapedName": "angular2parse",
+    "name": "angular2parse",
+    "rawSpec": "^1.0.4",
+    "spec": ">=1.0.4 <2.0.0",
+    "type": "range"
+  },
+  "_requiredBy": [
+    "/angular2-cesium"
+  ],
+  "_resolved": "https://registry.npmjs.org/angular2parse/-/angular2parse-1.0.4.tgz",
+  "_shasum": "08a238a21dc52748ed4a979250eb9577190e3086",
+  "_shrinkwrap": null,
+  "_spec": "angular2parse@^1.0.4",
+  "_where": "C:\\projects\\123\\node_modules\\angular2-cesium",
+  "author": {
+    "name": "TGFT"
+  },
+  "bugs": {
+    "url": "https://github.com/TGFT/angular2parse/issues"
+  },
+  "dependencies": {},
+  "description": "parse util for angular expressions",
+  "devDependencies": {},
+  "directories": {},
+  "dist": {
+    "shasum": "08a238a21dc52748ed4a979250eb9577190e3086",
+    "tarball": "https://registry.npmjs.org/angular2parse/-/angular2parse-1.0.4.tgz"
+  },
+  "homepage": "https://github.com/TGFT/angular2parse#readme",
+  "keywords": [
+    "angular",
+    "2",
+    "parse",
+    "parser",
+    "lexer"
+  ],
+  "license": "MIT",
+  "main": "bundles/angular2parse.umd.js",
+  "maintainers": [
+    {
+      "name": "ttsahi",
+      "email": "t.tsahi@gmail.com"
+    }
+  ],
+  "name": "angular2parse",
+  "optionalDependencies": {},
+  "peerDependencies": {
+    "@angular/core": "^2.4.8"
+  },
+  "readme": "ERROR: No README data found!",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TGFT/angular2parse.git"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.4"
+}
