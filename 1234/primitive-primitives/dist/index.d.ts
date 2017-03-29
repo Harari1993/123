@@ -1,1 +1,0 @@
-export { EllipsePrimitive } from "./EllipsePrimitive";
